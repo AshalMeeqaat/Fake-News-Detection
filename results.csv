@@ -1,0 +1,4 @@
+model,source,accuracy,f1
+SVM+TF-IDF (Base Paper),paper,0.9903,0.9903
+MLP+TF-IDF (Base Paper),paper,0.9877,0.9877
+DistilBERT+FocalLoss (in-domain),ours,0.9924987580725285,0.9924985366996991

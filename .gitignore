@@ -1,0 +1,34 @@
+# Model weights (too large for GitHub)
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Large datasets
+data/Truth_Seeker_Model_Dataset.csv
+data/*.csv.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
